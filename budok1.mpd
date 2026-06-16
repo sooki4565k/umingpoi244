@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2026-06-05T23:04:37Z" minimumUpdatePeriod="PT4.0S" minBufferTime="PT4.0S" publishTime="2026-06-16T10:07:57.229Z" timeShiftBufferDepth="PT60.0S" suggestedPresentationDelay="PT4.0S" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
+  <Period start="PT0S" id="1">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" par="16:9">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4v?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9" initialization="$RepresentationID$_init.m4i?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9">
+        <SegmentTimeline>
+          <S t="9037566648880" d="40000000" r="13"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation width="480" height="270" frameRate="25" codecs="avc1.428016" scanType="progressive" sar="1:1" id="1780700664551item-01item" bandwidth="500000"/>
+      <Representation width="640" height="360" frameRate="25" codecs="avc1.4d4020" scanType="progressive" sar="1:1" id="1780700664551item-02item" bandwidth="1000000"/>
+      <Representation width="960" height="540" frameRate="25" codecs="avc1.4d4029" scanType="progressive" sar="1:1" id="1780700664551item-03item" bandwidth="2000000"/>
+      <Representation width="1280" height="720" frameRate="25" codecs="avc1.640029" scanType="progressive" sar="1:1" id="1780700664551item-04item" bandwidth="3000000"/>
+      <Representation width="1920" height="1080" frameRate="25" codecs="avc1.64002a" scanType="progressive" sar="1:1" id="1780700664551item-05item" bandwidth="4000000"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="eng" segmentAlignment="true">
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
+      <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
+      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4a?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9" initialization="$RepresentationID$_init.m4i?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9">
+        <SegmentTimeline>
+          <S t="9037566715102" d="40106666"/>
+          <S t="9037606821768" d="40106667" r="1"/>
+          <S t="9037687035102" d="39680000"/>
+          <S t="9037726715102" d="40106666"/>
+          <S t="9037766821768" d="40106667" r="1"/>
+          <S t="9037847035102" d="39680000"/>
+          <S t="9037886715102" d="40106666"/>
+          <S t="9037926821768" d="40106667" r="1"/>
+          <S t="9038007035102" d="39680000"/>
+          <S t="9038046715102" d="40106666"/>
+          <S t="9038086821768" d="40106667"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="1780700664551item-06item" bandwidth="64000"/>
+    </AdaptationSet>
+  </Period>
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="http://time.akamai.com/?iso&amp;ms"/>
+</MPD>
