@@ -5,7 +5,7 @@
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
       <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
-      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4v?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9" initialization="$RepresentationID$_init.m4i?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9">
+      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4v" initialization="$RepresentationID$_init.m4i">
         <SegmentTimeline>
           <S t="9037566648880" d="40000000" r="13"/>
         </SegmentTimeline>
@@ -20,7 +20,7 @@
       <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc"/>
       <ContentProtection schemeIdUri="urn:uuid:9a04f079-9840-4286-ab92-e65be0885f95"/>
       <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"/>
-      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4a?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9" initialization="$RepresentationID$_init.m4i?hdntl=exp=1781690402~acl=/*~data=hdntl~hmac=3c6def77a62dcc4c665582aab20c39007211ba3cad7f928ec568499ec35432b9">
+      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
         <SegmentTimeline>
           <S t="9037566715102" d="40106666"/>
           <S t="9037606821768" d="40106667" r="1"/>
