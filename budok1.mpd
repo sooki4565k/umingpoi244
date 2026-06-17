@@ -1,40 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2026-06-05T18:55:53Z" minimumUpdatePeriod="PT4.0S" minBufferTime="PT4.0S" publishTime="2026-06-16T10:57:34.070Z" timeShiftBufferDepth="PT60.0S" suggestedPresentationDelay="PT4.0S" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
-  <BaseURL>https://ngtv-live-cbj.akamaized.net/Content/DASH/Live/channel(fifa3)/</BaseURL>
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2026-06-05T23:04:37Z" minimumUpdatePeriod="PT4.0S" minBufferTime="PT4.0S" publishTime="2026-06-17T09:07:29.235Z" timeShiftBufferDepth="PT60.0S" suggestedPresentationDelay="PT4.0S" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
+	<BaseURL>https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(fifa1)/</BaseURL>
   <Period start="PT0S" id="1">
-    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" par="16:9">
-      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4v" initialization="$RepresentationID$_init.m4i">
-        <SegmentTimeline>
-          <S t="9216527890760" d="40000000" r="14"/>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation width="480" height="270" frameRate="25" codecs="avc1.428016" scanType="progressive" sar="1:1" id="1780685741273item-01item" bandwidth="500000"/>
-      <Representation width="640" height="360" frameRate="25" codecs="avc1.4d4020" scanType="progressive" sar="1:1" id="1780685741273item-02item" bandwidth="1000000"/>
-      <Representation width="960" height="540" frameRate="25" codecs="avc1.4d4029" scanType="progressive" sar="1:1" id="1780685741273item-03item" bandwidth="2000000"/>
-      <Representation width="1280" height="720" frameRate="25" codecs="avc1.640029" scanType="progressive" sar="1:1" id="1780685741273item-04item" bandwidth="3000000"/>
-      <Representation width="1920" height="1080" frameRate="25" codecs="avc1.64002a" scanType="progressive" sar="1:1" id="1780685741273item-05item" bandwidth="4000000"/>
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="f88c0e6e-f2de-4f92-b7ce-07e50cb2d937"/>
-    </AdaptationSet>
-    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="eng" segmentAlignment="true">
-      <SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
-        <SegmentTimeline>
-          <S t="9216528170315" d="40106667"/>
-          <S t="9216568276982" d="39680000"/>
-          <S t="9216607956982" d="40106666"/>
-          <S t="9216648063648" d="40106667" r="1"/>
-          <S t="9216728276982" d="39680000"/>
-          <S t="9216767956982" d="40106666"/>
-          <S t="9216808063648" d="40106667" r="1"/>
-          <S t="9216888276982" d="39680000"/>
-          <S t="9216927956982" d="40106666"/>
-          <S t="9216968063648" d="40106667" r="1"/>
-          <S t="9217048276982" d="39680000"/>
-          <S t="9217087956982" d="40106666"/>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="1780685741273item-06item" bandwidth="64000"/>
-      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="f88c0e6e-f2de-4f92-b7ce-07e50cb2d937"/>
-    </AdaptationSet>
-  </Period>
-  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="http://time.akamai.com/?iso&amp;ms"/>
+		<AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true" par="16:9">
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4v" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="9865246648880" d="40000000" r="14"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation width="480" height="270" frameRate="25" codecs="avc1.428016" scanType="progressive" sar="1:1" id="1780700664551item-01item" bandwidth="500000"/>
+			<Representation width="640" height="360" frameRate="25" codecs="avc1.4d4020" scanType="progressive" sar="1:1" id="1780700664551item-02item" bandwidth="1000000"/>
+			<Representation width="960" height="540" frameRate="25" codecs="avc1.4d4029" scanType="progressive" sar="1:1" id="1780700664551item-03item" bandwidth="2000000"/>
+			<Representation width="1280" height="720" frameRate="25" codecs="avc1.640029" scanType="progressive" sar="1:1" id="1780700664551item-04item" bandwidth="3000000"/>
+			<Representation width="1920" height="1080" frameRate="25" codecs="avc1.64002a" scanType="progressive" sar="1:1" id="1780700664551item-05item" bandwidth="4000000"/>
+		</AdaptationSet>
+		<AdaptationSet mimeType="audio/mp4" startWithSAP="1" lang="eng" segmentAlignment="true">
+			<SegmentTemplate timescale="10000000" presentationTimeOffset="0" media="$RepresentationID$_Segment-$Time$.m4a" initialization="$RepresentationID$_init.m4i">
+				<SegmentTimeline>
+					<S t="9865246715102" d="40106666"/>
+					<S t="9865286821768" d="40106667" r="1"/>
+					<S t="9865367035102" d="39680000"/>
+					<S t="9865406715102" d="40106666"/>
+					<S t="9865446821768" d="40106667" r="1"/>
+					<S t="9865527035102" d="39680000"/>
+					<S t="9865566715102" d="40106666"/>
+					<S t="9865606821768" d="40106667" r="1"/>
+					<S t="9865687035102" d="39680000"/>
+					<S t="9865726715102" d="40106666"/>
+					<S t="9865766821768" d="40106667" r="1"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation audioSamplingRate="48000" codecs="mp4a.40.5" id="1780700664551item-06item" bandwidth="64000"/>
+		</AdaptationSet>
+	</Period>
+	<UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="http://time.akamai.com/?iso&amp;ms"/>
 </MPD>
